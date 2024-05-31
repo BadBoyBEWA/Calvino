@@ -170,6 +170,12 @@ section.home{
         display: none;
     }
 }
+@media screen and (max-width:412px) {
+    .second-heading{
+        margin-top: 50px;
+    }
+    
+}
 .talk{
     width: 141px;
     height: 49px;
@@ -849,21 +855,12 @@ footer>p{
     text-align: center;
     color: #656565;
 }
-
-
-
-
-
-
-/*  */
-
 .grey-background{
     background-color: rgb(136, 136, 136);
     width: 100%;
     padding: 1rem 0;
     margin-bottom: 20px;
 }
-
 .menu-cont{
     display: flex;
     background-color: black;
@@ -872,11 +869,9 @@ footer>p{
     padding: .3rem 2rem;
     gap: 1rem;
 }
-
 .menu-cont p{
     color: white;
 }
-
 .necessary-cont{
     width: 100%;
     display: flex;

@@ -171,8 +171,11 @@ section.home{
     }
 }
 @media screen and (max-width:412px) {
+    .third-heading{
+        margin-top: 20px;
+    }
     .second-heading{
-        margin-top: 450px;
+        padding-top: 250px;
     }
     
 }
@@ -298,7 +301,7 @@ section.services{
     color: #192839;
 }
 .product{
-    padding-top: 100px;
+    padding-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
